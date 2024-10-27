@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scrollbar-gutter: stable; 
+}
+.offer{
+    border: solid rgb(244, 139, 129);
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+    color:white ;
+    background-color: rgb(244, 139, 129);
+    font-family: "DM Sans", serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050; /* Ensure it stays above other elements */
+    
+}
+
+
+ .navbar-nav{
+    margin-right: 300px;
+
+}
+.navbar-brand{
+    margin-left: 25px;
+}
+
+#icons{
+    display:flex;
+    justify-content: center;
+
+}
+#icons i{
+    margin-left: 10px;
+}
+
+.icons-brands{
+ display: flex;
+ flex-direction: column;
+ margin: 13px;
+ 
+}
+#carouselimg img{
+    transition :transform 2s ease-in-out;
+}
+#carouselimg img:hover{
+    transform: scale(1.2);
+}
+
+#carouselimg{
+    overflow: hidden;
+}
+
+#CollectionsTitle{
+    margin-top: 5rem; 
+    text-align: center;
+    color: blueviolet;
+    /* font-family: "Sofadi One", serif; */
+}
+
+.CollectionsHead{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    /* font-family: "Sriracha", serif; */
+}
+.title{
+    text-decoration: none;
+    color:  black;
+    margin-left: 40px;
+}
+.card-img-top{
+    height:50%;
+}
+.CollectionsHead:hover{
+    color: black;
+    text-decoration: underline;
+}
+.Collectioncards{
+    display: grid;
+    place-items: center;
+}
+
+button{
+    grid-area: next;
+}
+
+
+
+#viewbutton{
+    text-align: center;
+    border: solid rgb(218, 27, 218)  3px;
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 100px;
+    background-color: black;
+    padding: 10px;
+    
+}
+#viewbutton a{
+    color:rgb(218, 27, 218) ;
+    text-decoration: none;
+}
+ #viewbutton:hover{
+    color:azure;
+  transition: 15s;  
+  background-color: transparent;
+  transition: 2s;
+  
+}
+
+
+
+@media ( max-width:768px){
+    .products{
+        flex-direction: column;
+        padding: 30px;
+        align-items: center;
+    }
+    .Product2div1 h2{
+        margin-left: 60px;
+    }
+   .Product2div1 a{
+    position: relative;
+    left: 20px;
+   }
+   .subscribe a{
+    position: relative;
+    top: 20px;
+   }
+   .Publicationitems img{
+    width: 70px;
+    
+   }
+   .vogue{
+    margin-bottom: 90px;
+   }
+   .grazia{
+    margin-top:25px ;
+   }
+   .elle{
+    margin-top:25px ;
+   }
+   .traveler{
+    margin-top:25px ;
+
+   }
+   .express{
+    margin-top:45px
+   }
+   #viewbutton {
+    text-align: center;
+    margin-left: 30%; 
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.CollectionsHead{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+
+ 
+#products1Img{
+    transition :transform 2s ease-in-out;
+}
+#products1Img:hover{
+    transform: scale(1.2);
+   
+ } 
+/* #products1{
+    position: relative;
+    overflow: hidden;
+   
+}  */
+#products2Img{
+    transition :transform 2s ease-in-out;
+}
+#products2Img:hover{
+    transform: scale(1.2);
+}
+
+
+#imghover{
+overflow: hidden;
+}
+
+
+
+.subscribe{
+    text-align: center;
+    margin-top: 0px;
+    background-image: linear-gradient(9deg,rgb(246, 246, 169),rgb(239, 181, 239));
+    padding: 40px;
+}
+.subscribe img{
+    width: 200px;
+}
+#para1{
+    font-size: 20px;
+    font-family: "DM Sans", serif;
+    font-weight: 600;
+
+}
+#para2{
+    font-size: 20px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 500;
+}
+#email{
+   width: 400px;
+   padding: 5px;
+   background-image: linear-gradient(9deg,rgb(246, 246, 169),rgb(239, 181, 239));
+}
+.subscribe a{
+    text-decoration: none;
+    border: solid black;
+    padding: 5px;
+    background-color: black;
+    color: beige;
+    
+}
+.publications{
+background-color: rgb(242, 232, 232);
+}
+#publi{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.Publicationitems{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vogue{
+    width: 200px;
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: transparent;  */
+    margin-top: 30px;
+    color: gray;
+    
+}
+.about i{
+color: gray;
+}
+#p12{
+    align-items:justify ;
+}
+
+
+#help a{
+    text-decoration: none;
+    color: gray;
+}
+#p14a{
+    color: rgb(227, 227, 154);
+}
+.copyright p{
+    margin-left: 500px;
+    font-size: 13px;
+}
+    
